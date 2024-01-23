@@ -13,7 +13,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class IntakeSubsystem<xboxButton> extends SubsystemBase {
   
-    CANSparkMax leftMotor = new CANSparkMax(14, MotorType.kBrushless);
+    CANSparkMax leftMotor = new CANSparkMax(21, MotorType.kBrushless);
     CANSparkMax  rightMotor = new CANSparkMax(15, MotorType.kBrushless);
 
     /** Creates a new IntakeWithA. */
